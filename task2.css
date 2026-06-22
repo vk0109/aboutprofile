@@ -1,0 +1,228 @@
+body{
+    background-color: black;
+}
+
+nav{
+    background-color: black;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.logo{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo span{
+    color: #1E90FF;
+}
+
+.navbar{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+ .navbar a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 12px;
+    border-radius: 5px;
+    transition:0.3s;
+}
+
+.navbar a:hover{
+    color: #1E90FF;
+}
+ #virat{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:0 8%;
+}
+.left-div{
+    margin: 30px 30px;
+    padding: 20px 20px;
+    color: #1E90FF;
+    width: 40%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.left-div h5{
+    color:#1E90FF;
+    font-weight: bolder;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.left-div h1{
+      margin-top: 0%;
+      font-size: 60px;
+      margin-bottom: 5px;
+}
+.left-div h3
+{
+    color:aliceblue;
+}
+.left-div p{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.left-div span{
+    color:white
+}
+
+.social-icons{
+    display:flex;
+    gap:20px;
+}
+
+.social-icons img{
+    width:40px;
+    height:40px;
+    background-color: aliceblue;
+    border-radius:50%;
+    transition:0.3s;
+}
+
+.social-icons img:hover{
+    background-color: #1E90FF;
+}
+.btn{
+     width:160px;
+    height:50px;
+    background:#1E90FF;
+    color:white;
+     margin-top: 20px;
+    border:none;
+    border-radius:30px;
+    font-weight:bold;
+    cursor:pointer;
+}
+.btn a{
+    color:aliceblue;
+}
+.btn a:hover{
+    color:black;
+}
+.btn a:active{
+    color: red;
+}
+
+.right-div{
+    margin:30px 30px;
+    padding: 20px 20px;
+    width:70%;
+    height:40%
+    
+}
+.right-div img{
+    width:700px;
+    height: 500px;
+    max-width:100%;
+}
+#about{
+    color:aliceblue;
+    font-size:40px;
+    text-align:center;
+    margin-top:80px;
+    margin-bottom:50px;
+
+}
+
+.abouthead{
+    min-height:100vh;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:80px 8%;
+    background-image: url('background.png');
+     background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+
+.about-left{
+    width:45%;
+}
+
+.about-left img{
+    width:100%;
+    border-radius:20px;
+}
+.about-right{
+    width:50%;
+    display:grid;
+     grid-template-columns:1fr 1fr;
+    gap:20px;
+}
+.box{
+    height:180px;
+    background:#0f1b31;
+    border:1px solid #1E90FF;
+    border-radius:15px;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+.box h2{
+    color:#1E90FF;
+    margin-bottom:15px;
+    border-bottom:2px solid #1E90FF;
+    padding-bottom:8px;
+    margin-top: 12px;
+    margin-bottom: 15px;
+}
+.box ul{
+    margin-bottom: 8px;
+}
+.box img{
+    width:40px;
+    height: 40px;
+    background-color: #1E90FF;
+}
+.gal{
+    width: 100%;
+     background-image: url('background.png');
+     background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+     display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:15px;
+    padding:20px;
+
+}
+.item{
+    width: 235px;
+    height:408px;
+    background:#ccc;
+    border-radius:10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:24px;
+    font-weight:bold;
+}
+#gallery{
+    color:aliceblue;
+    font-size:40px;
+    text-align:center;
+    margin-top:80px;
+    margin-bottom:50px;
+
+}
